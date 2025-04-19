@@ -3,8 +3,6 @@ workflows:
     name: Build Android Debug APK
     max_build_duration: 15
     environment:
-      android_signing:
-        - build_android
       vars:
         PROJECT_DIR: "simplified_android_project"
     scripts:
@@ -12,3 +10,4 @@ workflows:
       - ./gradlew assembleDebug
     artifacts:
       - $PROJECT_DIR/app/build/outputs/apk/debug/app-debug.apk
+
