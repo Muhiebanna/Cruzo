@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cruzo</string>
+    <string name="app_description">Compare ride prices across Egypt\'s top services</string>
+    
+    <!-- Login and Registration -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    
+    <!-- Main Screen -->
+    <string name="where_to">Where to?</string>
+    <string name="pickup_location">Pickup location</string>
+    <string name="destination">Destination</string>
+    <string name="search_rides">Search Rides</string>
+    <string name="recent_locations">Recent Locations</string>
+    <string name="saved_places">Saved Places</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    
+    <!-- Ride Comparison -->
+    <string name="available_rides">Available Rides</string>
+    <string name="best_value">Best Value</string>
+    <string name="cheapest">Cheapest</string>
+    <string name="fastest">Fastest</string>
+    <string name="sort_by">Sort by</string>
+    <string name="filter">Filter</string>
+    <string name="price">Price</string>
+    <string name="eta">ETA</string>
+    <string name="rating">Rating</string>
+    <string name="distance">Distance</string>
+    <string name="cheaper_by">Cheaper by %s</string>
+    <string name="faster_by">Faster by %s</string>
+    <string name="book_ride">Book Ride</string>
+    
+    <!-- Service Providers -->
+    <string name="uber">Uber</string>
+    <string name="bolt">Bolt</string>
+    <string name="careem">Careem</string>
+    <string name="indrive">inDrive</string>
+    <string name="swvl">Swvl</string>
+    <string name="didi">DiDi</string>
+    <string name="halan">Halan</string>
+    
+    <!-- inDrive Offer Feature -->
+    <string name="make_offer">Make Offer</string>
+    <string name="suggested_price">Suggested Price</string>
+    <string name="your_offer">Your Offer</string>
+    <string name="send_offer">Send Offer</string>
+    <string name="waiting_for_drivers">Waiting for drivers to accept your offer...</string>
+    <string name="driver_accepted">Driver accepted your offer!</string>
+    <string name="driver_counter_offer">Driver counter-offered: %s</string>
+    <string name="accept_counter">Accept Counter</string>
+    <string name="reject_counter">Reject Counter</string>
+    <string name="make_new_offer">Make New Offer</string>
+    
+    <!-- Driver Mode -->
+    <string name="driver_mode">Driver Mode</string>
+    <string name="passenger_mode">Passenger Mode</string>
+    <string name="earnings">Earnings</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="available_requests">Available Requests</string>
+    <string name="accept_request">Accept</string>
+    <string name="decline_request">Decline</string>
+    <string name="navigate">Navigate</string>
+    <string name="start_ride">Start Ride</string>
+    <string name="end_ride">End Ride</string>
+    <string name="cancel_ride">Cancel Ride</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="notifications">Notifications</string>
+    <string name="language">Language</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Errors and Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_login">Login failed. Please check your credentials.</string>
+    <string name="error_registration">Registration failed. Please try again.</string>
+    <string name="error_ride_search">Failed to find rides. Please try again.</string>
+    <string name="success_login">Login successful!</string>
+    <string name="success_registration">Registration successful!</string>
+    <string name="success_booking">Ride booked successfully!</string>
+</resources>

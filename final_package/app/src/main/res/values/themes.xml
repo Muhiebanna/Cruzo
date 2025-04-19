@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Cruzo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/cruzo_primary</item>
+        <item name="colorPrimaryVariant">@color/cruzo_primary_dark</item>
+        <item name="colorOnPrimary">@color/cruzo_background</item>
+        
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/cruzo_accent</item>
+        <item name="colorSecondaryVariant">@color/cruzo_primary_light</item>
+        <item name="colorOnSecondary">@color/cruzo_text_primary</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/cruzo_primary_dark</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/cruzo_text_primary</item>
+        <item name="android:textColorSecondary">@color/cruzo_text_secondary</item>
+        <item name="android:textColorHint">@color/cruzo_text_hint</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/cruzo_background</item>
+        
+        <!-- Custom Cruzo styles -->
+        <item name="materialButtonStyle">@style/Widget.Cruzo.Button</item>
+        <item name="textInputStyle">@style/Widget.Cruzo.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Widget.Cruzo.CardView</item>
+    </style>
+    
+    <!-- Button style -->
+    <style name="Widget.Cruzo.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/cruzo_background</item>
+        <item name="backgroundTint">@color/cruzo_primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <!-- Text Input style -->
+    <style name="Widget.Cruzo.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/cruzo_primary</item>
+        <item name="hintTextColor">@color/cruzo_primary</item>
+        <item name="android:textColorHint">@color/cruzo_text_hint</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+    
+    <!-- Card style -->
+    <style name="Widget.Cruzo.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cruzo_card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Text styles -->
+    <style name="TextAppearance.Cruzo.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/cruzo_text_primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextAppearance.Cruzo.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/cruzo_text_secondary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="TextAppearance.Cruzo.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/cruzo_text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="TextAppearance.Cruzo.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/cruzo_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- Special styles for ride comparison -->
+    <style name="Widget.Cruzo.BestValueBadge">
+        <item name="android:background">@color/cruzo_primary</item>
+        <item name="android:textColor">@color/cruzo_background</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

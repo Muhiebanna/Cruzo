@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cruzo brand colors -->
+    <color name="cruzo_primary">#FFA000</color> <!-- Amber/Orange from logo -->
+    <color name="cruzo_primary_dark">#FF8F00</color> <!-- Darker shade of primary -->
+    <color name="cruzo_primary_light">#FFB74D</color> <!-- Lighter shade of primary -->
+    <color name="cruzo_accent">#FFC107</color> <!-- Accent color complementing primary -->
+    
+    <!-- Text colors -->
+    <color name="cruzo_text_primary">#212121</color> <!-- Black text from logo -->
+    <color name="cruzo_text_secondary">#757575</color> <!-- Secondary text -->
+    <color name="cruzo_text_hint">#BDBDBD</color> <!-- Hint text -->
+    
+    <!-- Background colors -->
+    <color name="cruzo_background">#FFFFFF</color> <!-- White background -->
+    <color name="cruzo_background_light">#F5F5F5</color> <!-- Light background -->
+    <color name="cruzo_card_background">#FFFFFF</color> <!-- Card background -->
+    
+    <!-- Status colors -->
+    <color name="cruzo_success">#4CAF50</color> <!-- Success color -->
+    <color name="cruzo_error">#F44336</color> <!-- Error color -->
+    <color name="cruzo_warning">#FF9800</color> <!-- Warning color -->
+    <color name="cruzo_info">#2196F3</color> <!-- Info color -->
+    
+    <!-- Service provider colors (for identification) -->
+    <color name="cruzo_uber">#000000</color> <!-- Uber black -->
+    <color name="cruzo_bolt">#34D186</color> <!-- Bolt green -->
+    <color name="cruzo_careem">#49C775</color> <!-- Careem green -->
+    <color name="cruzo_indrive">#BFED00</color> <!-- inDrive lime green -->
+    <color name="cruzo_swvl">#FF0066</color> <!-- Swvl pink -->
+    <color name="cruzo_didi">#FF7D1A</color> <!-- DiDi orange -->
+    <color name="cruzo_halan">#00A651</color> <!-- Halan green -->
+</resources>
